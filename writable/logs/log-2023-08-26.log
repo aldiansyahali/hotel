@@ -1,0 +1,12 @@
+CRITICAL - 2023-08-26 03:21:43 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+in APPPATH\Views\hasil_pemesanan.php on line 35.
+ 1 APPPATH\Views\hasil_pemesanan.php(35): date('d/m/Y', '2023-09-01')
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\latihan\\app\\Views\\hasil_pemesanan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('hasil_pemesanan', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('hasil_pemesanan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hasil_pemesanan('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\latihan\\public\\index.php')
